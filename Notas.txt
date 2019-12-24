@@ -1,0 +1,34 @@
+<Notas del curso
+
+ls = lista de archivos
+ls -al, ls -l, ls -a = listar mas archivos
+rm = remove
+mkdir = crear directorio
+cd = navegar
+.= Actualmente
+..= volver
+~ = home
+cat = ver contenido de un archivos
+history = comandos usados
+git init = iniciar git
+git add = añadir a stagging(memoria ram)
+git add . = añadir todos
+git commit = aplicar cambios (para salir de la pantalla siguiente esc + shift + z + z)
+git commit -m ""= commit mas mensaje
+git status
+git show = ultimo cambio
+git rm --staggedn= se va el stagging y el archivo a la verga, pero quedan los logs
+git rm --forced =se va todo a la verga
+git config --list
+git config --global user.name ""
+git config --global user.email ""
+git log ----- = cambios realizado
+git diff (colocar la clave del commit) (clave del commit a comparar) = para comparalos
+git reset (codigo de version a volver) --soft(lo que esta en stagging se queda alli, vease version  es donde se usa el add) o hard (se va todo a la verga)
+git checkout (insertar version) (nombre del archivo)= traer el archivo deseado
+git checkout (master) (nombre del archivo)= regresar la version original
+git reset HEAD = sacar del stagging en el add mas reciente
+git commit -am (sirve para hacer commit sin add a archisvos ya trabajados anteriormente)
+git branch (nombre de la branch) = crear nueva ramas
+git checkout (nombre de la rama) = para navegar entre ramas
+
