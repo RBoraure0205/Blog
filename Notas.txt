@@ -28,13 +28,6 @@ git config --global user.name ""
 git config --global user.email ""
 git log ----- = cambios realizado
 git diff (colocar la clave del commit) (clave del commit a comparar) = para comparalos
-<<<<<<< HEAD
-git reset (codigo de version a volver) --soft(lo que esta en stagging se queda alli, vease versiones donde se usa el add) o hard (se va todo a la verga)
-git checkout (insertar version) (nombre del archivo)= traer el archivo deseado
-git checkout (master) (nombre del archivo)= regresar la version original
-git reset HEAD = sacar del stagging en el add mas reciente
-git commit -am (sirve para hacer commit sin add a archisvos ya trabajados anteriormente)
-=======
 git reset (codigo de version a volver) --soft(lo que esta en stagging se queda alli, vease version  es donde se usa el add) o hard (se va todo a la verga)
 git checkout (insertar version) (nombre del archivo)= traer el archivo deseado
 git checkout (master) (nombre del archivo)= regresar la version original
@@ -42,5 +35,4 @@ git reset HEAD = sacar del stagging en el add mas reciente
 git commit -am (sirve para hacer commit sin add a archisvos ya trabajados anteriormente)
 git branch (nombre de la branch) = crear nueva ramas
 git checkout (nombre de la rama) = para navegar entre ramas
-
->>>>>>> cabecera
+git merge (nombre de la rama)
