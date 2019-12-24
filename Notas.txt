@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Notas del curso
-=======
-<Notas del curso
->>>>>>> cabecera
 
 ls = lista de archivos
 ls -al, ls -l, ls -a = listar mas archivos
